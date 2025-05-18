@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Optional: Custom global styles below this line ---- */
+/* Example: Customize font, scrollbars, selection, etc. */
+/*
+body {
+  font-family: 'Inter', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e5e7eb; 
+}
+::-webkit-scrollbar-thumb {
+  background: #93c5fd;  
+  border-radius: 6px;
+}
+::selection {
+  background: #93c5fd;
+  color: #fff;
+}
+*/
