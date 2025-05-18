@@ -1,15 +1,15 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 import Home from "./pages/home";
 import PgList from "./pages/pglist";
 import PgDetail from "./pages/pgdetail";
-import About from "./pages/About";
+import About from "./pages/about";
 import FAQ from "./pages/FAQ";
-import Contact from "./pages/Contact";
+import Contact from "./pages/contact";
 
 function App() {
   return (
