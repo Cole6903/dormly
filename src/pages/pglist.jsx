@@ -6,12 +6,10 @@ export default function PgList() {
   const [city, setCity] = useState("");
 
   useEffect(() => {
-    fetch(`/api/pgs
-${city ? "?city=" + city : ""}`)
+ fetch(`/api/pgs${city ? "?city=" + city : ""}`)
       .then((res) => res.json())
       .then(setPgs);
   }, [city]);
-
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-semibold mb-4">Browse Paying Guest (PG) Options</h1>

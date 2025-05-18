@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import Home from "./pages/home";
-import PgList from "./pages/PgList";
-import PgDetails from "./pages/pgdetail";
+import PgList from "./pages/pglist";
+import PgDetail from "./pages/pgdetail";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
@@ -19,8 +19,8 @@ function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/pgs" element={<PgList />} />
-            <Route path="/pg/:id" element={<PgDetails />} />
+            <Route path="/listings" element={<PgList />} />
+            <Route path="/listings/:id" element={<PgDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />
